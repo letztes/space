@@ -216,7 +216,7 @@ var scorediv = document.getElementById("score");
 if( score ) {
 	scorediv.removeChild(score);
 }
-var info =  "Leben: " + lives + " Level: " + currentlevel + " Punkte: " + points + " Multiplikator: " + multi + "x"
+var info =  "Lives: " + lives + " Level: " + currentlevel + " Score: " + points + " Multiplicator: " + multi + "x"
 if( lives < 0 ) {
 	
 	gameOver = 1;
@@ -232,7 +232,7 @@ if(bg.getChildren().length == 0) {
 		multi = multi + 5;
 		lives++;
 		points = points + 1000;
-		info =  "Leben: " + lives + " NEW Level: " + currentlevel + " Punkte: " + points + " Multiplikator: " + multi + "x"
+		info =  "Lives: " + lives + " NEW Level: " + currentlevel + " Score: " + points + " Multiplicator: " + multi + "x"
 
 	} else {
 		info = "You Win! Score: " + points;
