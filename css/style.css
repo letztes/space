@@ -1,7 +1,11 @@
 
+#body {
+	background: black;
+	color: white;
+}
 
 .playground {
-	border:1px solid black;
+	border:1px solid white;
 	left:2px;
 	top:2px;
 	width: 799px;
@@ -9,16 +13,24 @@
 }
 
 .score {
-	border:1px solid black;
+	border:1px solid white;
 	left:2px;
 	top:402px;
 	width: 799px;
 	height: 40px;
 }
+
+.octicon {
+	fill: white;
+	text-align: right;
+	float: right;
+	margin: 10px;
+}
+
 .shot {	
 		position: absolute;
 		display: block;
-		background: black;
+		background: white;
 		width:  4px;
 		height: 10px;
 }
@@ -87,5 +99,4 @@
 .plus{
 	background-image: url( '../images/plus.png');
 	background-repeat:no-repeat;
-
 }
